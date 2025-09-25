@@ -48,4 +48,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/mi-app-python:latest
+          tags: eddysantiago2722/mi-app-python:latest
