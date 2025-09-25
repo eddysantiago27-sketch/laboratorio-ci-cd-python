@@ -23,7 +23,7 @@ jobs:
         run: pip install -r src/requirements.txt
 
       - name: Run tests with pytest
-        run: pytest 
+        run: pytest src/test.py
 
   docker:
     runs-on: ubuntu-latest
